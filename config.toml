@@ -1,4 +1,4 @@
-baseURL                   = "https://example.com"
+baseURL                   = "https://elliottjames.com"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
@@ -11,7 +11,7 @@ summaryLength              = 200
 Paginate                   = 3
 
 theme = "AllinOne"
-title                      = "Orianna"
+title                      = "Elliott James"
 
 pygmentsuseclasses         = true
 
@@ -19,41 +19,46 @@ pygmentsuseclasses         = true
 [permalinks]
   blog                     = "blog/:year-:month/:slug/"
 
-
-[taxonomies]
-  tag                      = "tags"
-  series                   = "series"
-  category                 = "categories"
-
-
 [menu]
   [[menu.main]]
-    name                   = "Blog"
+    name                   = "Writing"
     weight                 = -120
-    identifier             = "blog"
-    url                    = "blog/"  
+    identifier             = "writing"
+    url                    = "writing/"  
 
   [[menu.main]]
-    name                   = "Moment"
+    name                   = "Acting"
     weight                 = -110
-    identifier             = "moment"
-    url                    = "moment/" 
+    identifier             = "acting"
+    url                    = "acting/" 
 
   [[menu.main]]
-    name                   = "About"
+    name                   = "Clowning"
     weight                 = -100
-    identifier             = "about"
-    url                    = "about/"  
+    identifier             = "clowning"
+    url                    = "clowning/"  
 
+   [[menu.main]]
+    name                   = "Teaching"
+    weight                 = -100
+    identifier             = "teaching"
+    url                    = "teaching/"  
+    
+     [[menu.main]]
+    name                   = "CV"
+    weight                 = -10
+    identifier             = "cv"
+    url                   = "/cv/index_files/cv.pdf"
  
 
 [params]
   faviconfile              = "img/zheng.png"               # from static/
-  avatar                   = "img/profile.jpg"             # path to image in static dir e.g img/avatar.png 
-  author                   = "Orianna"
-  description              = ["Be myself.", "Love the wonderful world.", "Do the right things and be a better man."]           # appears in the site header when set to a non-empty string
-  welcome_head             = "Hello, World!"
-  welcome_word             = "~ No Day But Today ~"
+  avatar                   = "img/profile2.jpg"             # path to image in static dir e.g img/avatar.png 
+   author                   = "Elliott James, MFa"
+  description              = ["Playwright, Actor, Clown, Teacher"]           # appears in the site header when set to a non-empty string
+  welcome_head             = "About Me"
+  welcome_word             = "Originally from Quadra Island, BC, Elliott has been a theatre artist and creator for the past 15 years. Elliott received his Masters of Creative Writing in Playwriting from the University of Victoria as well as a BFA in Acting from the University of Alberta. While attending the U of A he trained with his mentors Michael Kennard, of the clown duo ‘Mump and Smoot’, and Kevin Kerr of the Electric Company Theatre. Elliott has written and performed in two full length clown shows, Vice Versa and Vice Re-Versa, and his bouffon show, An Evening With Satan. Elliott was an Artistic Associate and founding member of Punctuate! Theatre in Edmonton, AB where he guided the company through five seasons of original programming. He is currently working as a writer, actor and teacher in Vancouver, BC."
+
 
   latestpostscount         = 5                             # how many posts to display on the home page
   bloggroupby              = 'month'
@@ -62,8 +67,8 @@ pygmentsuseclasses         = true
   noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
 
   # slides
-  slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
-  slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+  slidesDirPath            = "themes/AllinOne/static/img/header"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header"    # path to image in static dir (for static pages)
 
   # highlighting 
   highlightjs              = true
@@ -72,17 +77,9 @@ pygmentsuseclasses         = true
   katex                    = true
 
   # links
-  email                    = "you@email.com"
-  github                   = "//github.com/you"
-  linkedin                 = "//linkedin.com/in/you"
-  facebook                 = "//facebook.com/you"
-  googleplus               = "//google.com/you"
-  twitter                  = "//twitter.com/you" 
-  px500                    = "//px500"
-  instagram                = "//instagram.com/you"
+  email                    = "johnelliottjames@gmail.com"
   include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
   
   # analytics
   googleAnalytics          = "your-google-analytic-id"
-    
     
