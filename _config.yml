@@ -16,21 +16,6 @@ theme = "AllinOne"
 title                      = "Elliott James"
 
 repository:jelliottjames/jelliottjames.github.io
-
-plugins:jekyll-feed
-plugins:jekyll-sitemap # minimal-mistakes
-plugins:jekyll-include-cache # minimal-mistakes
-plugins:jekyll-paginate # minimal-mistakes
-plugins:jekyll-gist # minimal-mistakes
-plugins:jekyll-remote-theme
-
- 
-whitelist:jekyll-feed
-whitelist:jekyll-sitemap # minimal-mistakes
-whitelist:jekyll-include-cache # minimal-mistakes
-whitelist:jekyll-paginate # minimal-mistakes
-whitelist:jekyll-gist # minimal-mistakes
-whitelist:jekyll-remote-theme
   
 include:_pages
 # exclude:
