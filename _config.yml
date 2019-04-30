@@ -15,7 +15,7 @@ Paginate                   = 3
 theme = "AllinOne"
 title                      = "Elliott James"
 
-repository: jelliottjames/jelliottjames.github.io
+repository:jelliottjames/jelliottjames.github.io
 
 plugins:
   - jekyll-feed
