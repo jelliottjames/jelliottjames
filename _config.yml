@@ -1,5 +1,5 @@
 remote_theme: orianna-zzo/AllinOne
-baseURL                   = "https://elliottjames.com"
+baseURL                   = "https://jelliottjames.github.io"
 builddrafts                = false
 languageCode               = "zn-Hans"
 canonifyurls               = true
