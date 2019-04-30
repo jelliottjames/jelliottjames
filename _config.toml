@@ -1,0 +1,85 @@
+baseURL                   = "https://elliottjames.com"
+builddrafts                = false
+languageCode               = "zn-Hans"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
+theme = "AllinOne"
+title                      = "Elliott James"
+
+pygmentsuseclasses         = true
+
+
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
+
+#[menu]
+  #[[menu.main]]
+  #  name                   = "Writing"
+   # weight                 = -120
+   # identifier             = "writing"
+   # url                    = "writing/"  
+
+ # [[menu.main]]
+  #  name                   = "Acting"
+  #  weight                 = -110
+   # identifier             = "acting"
+   # url                    = "acting/" 
+
+ # [[menu.main]]
+ #   name                   = "Clowning"
+ #   weight                 = -100
+ #   identifier             = "clowning"
+ #   url                    = "clowning/"  
+
+ #  [[menu.main]]
+  #  name                   = "Teaching"
+  #  weight                 = -100
+  #  identifier             = "teaching"
+  #  url                    = "teaching/"  
+    
+     [[menu.main]]
+    name                   = "CV"
+    weight                 = -10
+    identifier             = "cv"
+    url                   = "/cv/index_files/cv.pdf"
+ 
+
+[params]
+  faviconfile              = "img/zheng.png"               # from static/
+  avatar                   = "img/profile2.jpg"             # path to image in static dir e.g img/avatar.png 
+   author                   = "Elliott James, MFa"
+  description              = ["Playwright, Actor, Clown, Teacher"]           # appears in the site header when set to a non-empty string
+  welcome_head             = "About Me"
+  welcome_word             = "Originally from Quadra Island, BC, Elliott has been a theatre artist and creator for the past 15 years. Elliott received his Masters of Creative Writing in Playwriting from the University of Victoria as well as a BFA in Acting from the University of Alberta. While attending the U of A he trained with his mentors Michael Kennard, of the clown duo ‘Mump and Smoot’, and Kevin Kerr of the Electric Company Theatre. Elliott has written and performed in two full length clown shows, Vice Versa and Vice Re-Versa, and his bouffon show, An Evening With Satan. Elliott was an Artistic Associate and founding member of Punctuate! Theatre in Edmonton, AB where he guided the company through five seasons of original programming. He is currently working as a writer, actor and teacher in Vancouver, BC."
+
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+  slidesDirPath            = "themes/AllinOne/static/img/header"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "img/header"    # path to image in static dir (for static pages)
+
+  # highlighting 
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "johnelliottjames@gmail.com"
+  include_rss              = true                          # include RSS <link> tag in <head> and show RSS icon
+  
+  # analytics
+  googleAnalytics          = "your-google-analytic-id"
+    
