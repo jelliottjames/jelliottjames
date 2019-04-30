@@ -1,3 +1,4 @@
+remote_theme: orianna-zzo/AllinOne
 baseURL                   = "https://elliottjames.com"
 builddrafts                = false
 languageCode               = "zn-Hans"
