@@ -1,7 +1,8 @@
-remote_theme: orianna-zzo/AllinOne
-repository: jelliottjames/jelliottjames.github.io
+remote_theme: "orianna-zzo/AllinOne"
 baseURL                   = "https://jelliottjames.github.io"
 builddrafts                = false
+name                     = "Elliott James"
+baseurl: "/"
 languageCode               = "zn-Hans"
 canonifyurls               = true
 contentdir                 = "content"
@@ -15,6 +16,37 @@ Paginate                   = 3
 theme = "AllinOne"
 title                      = "Elliott James"
 
+repository: jelliottjames/jelliottjames.github.io
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap # minimal-mistakes
+  - jekyll-include-cache # minimal-mistakes
+  - jekyll-paginate # minimal-mistakes
+  - jekyll-gist # minimal-mistakes
+  - jekyll-remote-theme
+
+whitelist: 
+  - jekyll-feed
+  - jekyll-sitemap # minimal-mistakes
+  - jekyll-include-cache # minimal-mistakes
+  - jekyll-paginate # minimal-mistakes
+  - jekyll-gist # minimal-mistakes
+  - jekyll-remote-theme
+  
+include:
+  - _pages
+# exclude:
+  # - Gemfile
+  # - Gemfile.lock
+        
+# minimal-mistakes customizations
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 pygmentsuseclasses         = true
 
 
