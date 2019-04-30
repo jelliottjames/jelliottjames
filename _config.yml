@@ -2,7 +2,6 @@ remote_theme:orianna-zzo/AllinOne
 baseURL                   = "https://jelliottjames.github.io"
 builddrafts                = false
 name                     = "Elliott James"
-baseurl: "/"
 languageCode               = "zn-Hans"
 canonifyurls               = true
 contentdir                 = "content"
