@@ -1,4 +1,4 @@
-remote_theme: "orianna-zzo/AllinOne"
+remote_theme:orianna-zzo/AllinOne
 baseURL                   = "https://jelliottjames.github.io"
 builddrafts                = false
 name                     = "Elliott James"
