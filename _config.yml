@@ -1,4 +1,4 @@
-remote_theme:orianna-zzo/AllinOne
+theme = pages-themes/merlot
 baseURL                   = "https://jelliottjames.github.io"
 builddrafts                = false
 name                     = "Elliott James"
@@ -99,5 +99,3 @@ pygmentsuseclasses         = true
   # analytics
   googleAnalytics          = "your-google-analytic-id"
     
-
-theme: jekyll-theme-tactile
