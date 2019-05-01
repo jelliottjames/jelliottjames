@@ -99,3 +99,5 @@ pygmentsuseclasses         = true
   # analytics
   googleAnalytics          = "your-google-analytic-id"
     
+
+theme: jekyll-theme-merlot
